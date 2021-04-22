@@ -1,0 +1,295 @@
+/* html {
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+} */
+
+
+
+:root{
+    --primary:  rgb(67, 67, 243);;
+    --secoundary: rgb(32, 32, 201);
+    --grey:rgb(97, 87, 146);
+    --lightGray: rgb(232, 237, 253);
+}
+
+/* navbar-section */
+
+#navbar{
+    padding: 1% 0;
+}
+
+.logo-img{
+    height: 79px; 
+    width: 183px;
+    margin-left: 54px;
+}
+
+.navbar-item{
+        font-family: 'RocknRoll One', sans-serif;
+        font-size: 1.2rem;
+        text-decoration: none;
+        padding: 0 2%;
+        font-weight: 700;
+        color: var(--primary);
+}
+
+.navbar-item:hover{
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+.navbar-content{
+    margin-left: 38%;
+}
+
+.navbar-button{
+    border: none;
+    border-radius: 20px;
+    padding: 9px 33px;
+    color: white;
+    background-color: var(--primary);
+}
+
+.navbar-button:hover{
+    color: white;
+    background-color: var(--secoundary);
+    text-decoration: none;
+}
+
+
+/* navbar-section end */
+
+/* main section start */
+.home{
+    margin: 70px;
+}
+
+.main-contaioner{
+    margin: 80px 0 0 0;
+}
+
+.main-heading{
+    margin-left: 84px;
+    font-size: 3.5rem;
+}
+
+.main-subheading{
+    margin-left: 84px;
+}
+
+.main-link{
+    text-decoration: none;
+    color:#888888;
+    margin-left: 135px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main-link:hover{
+    text-decoration: underline;
+    color: #888888;
+}
+
+.main-bg-img{
+    height: 500px;
+}
+
+.main-left{
+    height: 500px;
+    width: 500px;
+    padding: 101px 0px;
+} 
+
+.main-right{
+    height: 500px;
+    width: 500px;
+    padding: 10px 2px;
+}
+
+.main-btn {
+    border: none;
+    border-radius: 40px;
+    padding: 9px 33px;
+    color: white;
+    background-color: var(--primary);
+    margin: 64px 0px 28px 81px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.main-btn:hover{
+    background-color: var(--secoundary);
+}
+
+/* main section end */
+
+/* courses section start */
+
+#courses{
+    display: flex;
+}
+
+.firstCard{
+    width: 30%;
+    height: 500px;
+    margin: 97px 26px 33px 69px;
+    text-align: center;
+    border-radius: 47px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.card-upper{
+    height: 100px;
+    width: 100px;
+}
+
+.card-img-section{
+    border-radius: 47px 47px 0 0;
+    text-align: center;
+    padding: 52px 0px;
+    background-color: var(--grey);
+}
+
+.card-lower{
+    padding: 11px 33px
+}
+
+.card-button{
+    padding: 13px 66px;
+    border: none;
+    border-radius: 34px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 9px;
+    background-color: var(--primary);
+    color: white;
+}
+
+.card-button:hover{
+    transition: all 0.4s;
+    border: 2px solid var(--primary);
+    background-color: white;
+    color: var(--primary);
+}
+
+.card-heading{
+    font-weight: 800;
+    font-size: 1.8rem;
+    margin-top: 25px;
+}
+
+.card-para{
+    margin-top: 15px;
+}
+
+.cousersReference{
+    text-decoration: none;
+    color: var(--secoundary);
+    margin-left: 41%;
+    font-size: 2rem;
+    font-weight: 700;
+}
+/* courses section end */
+
+/* contact section start */
+
+.contact-contaionr{
+    width: 100%;
+    height: 710px;
+    background-color: var(--lightGray);
+    margin-top: 90px;
+    padding: 2%;
+}
+
+.contact-heading{
+    color: var(--secoundary);
+}
+
+.inner-containor{
+    width: 60%;
+    padding: 2%;
+    margin: 3% 0% 4% 21%;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.contact-controlls{
+    width: 100%;
+    border: 1px solid rgb(168, 166, 166);
+    border-radius: 10px;
+}
+
+.contact-btn{
+    padding: 1% 8%;
+    margin: 33px 0 15px 38%;
+    border: none;
+    font-size: 1.3rem;
+    background-color: var(--primary);
+    color: white;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+.contact-btn:hover{
+    background-color: var(--secoundary);
+}
+
+/* contact section end */
+
+/* courses.html */
+
+/* courses card-section start */
+
+.card-courses-containor{
+    background-color: red;
+    /* hei; */
+    width: 100%;
+}
+
+/* courses card-section end */
+
+/* about-us section start */
+
+.about-section{
+    height: 300px;
+    padding: 2% 14%;
+}
+
+.about-para{
+    margin-top: 43px;
+    font-size:1.2rem;
+    font-weight: 600;
+}
+
+/* about-us section end */
+
+/* footer-section start */
+
+.footer-section{
+    height: 300px;
+    background-color:var(--primary);
+    text-align: center;
+    padding: 7% 2%;
+}
+
+.footer-icon{
+    padding: 2% 2%;
+    color: white;
+}
+
+.footer-para{
+    color: white;
+}
+
+/* footer-section end */

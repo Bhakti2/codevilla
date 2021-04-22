@@ -1,0 +1,109 @@
+:root {
+    --primary: rgb(67, 67, 243);
+    --secoundary: rgb(32, 32, 201);
+    --grey: rgb(97, 87, 146);
+    --lightGray: rgb(232, 237, 253);
+  }
+
+/* navbar-section */
+
+#navbar {
+    padding: 1% 0;
+  }
+  
+  .logo-img {
+    height: 79px;
+    width: 183px;
+    margin-left: 54px;
+  }
+  
+  .navbar-item {
+    font-family: "RocknRoll One", sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 0 2%;
+    font-weight: 700;
+    color: var(--primary);
+  }
+  
+  .navbar-item:hover {
+    color: var(--primary);
+    text-decoration: underline;
+  }
+  
+  .navbar-content {
+    margin-left: 38%;
+  }
+  
+  .navbar-button {
+    border: none;
+    border-radius: 20px;
+    padding: 9px 33px;
+    color: white;
+    background-color: var(--primary);
+  }
+  
+  .navbar-button:hover {
+    color: white;
+    background-color: var(--secoundary);
+    text-decoration: none;
+  }
+  /* navbar-section end */
+
+  /* vertical-menu start */
+
+.vertical-menu {
+    width: 276px;
+    height: 84vh;
+    overflow-y: auto;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color:var(--lightGray);
+}
+
+.vertical-menu a.active {
+  background-color: var(--primary);
+  color: white;
+}
+
+/* vertical-menu end */
+
+/* content section start */
+
+.outer-containor{
+  display: flex;
+}
+
+.content-section{
+  padding: 0 2%;
+  width: 100%;
+}
+
+.content-section-para{
+  margin: 2% 0;
+  line-height: 1.8;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.custome-para{
+  border: 2px solid var(--secoundary);
+  width: 21%;
+  border-radius: 8px;
+  padding: 1%;
+  font-size: 18px;
+}
+
+/* content section end */
+
+
+  

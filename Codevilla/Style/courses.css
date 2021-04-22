@@ -1,0 +1,104 @@
+
+:root{
+    --primary:  rgb(67, 67, 243);;
+    --secoundary: rgb(32, 32, 201);
+    --grey:rgb(97, 87, 146);
+    --lightGray: rgb(232, 237, 253);
+}
+
+body{
+    background-color: var(--lightGray);
+}
+
+/* navbar-section */
+
+#navbar{
+    padding: 1% 0;
+}
+
+.logo-img{
+    height: 79px; 
+    width: 183px;
+    margin-left: 54px;
+}
+
+.navbar-item{
+        font-family: 'RocknRoll One', sans-serif;
+        font-size: 1.2rem;
+        text-decoration: none;
+        padding: 0 2%;
+        font-weight: 700;
+        color: var(--primary);
+}
+
+.navbar-item:hover{
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+.navbar-content{
+    margin-left: 38%;
+}
+
+.navbar-button{
+    border: none;
+    border-radius: 20px;
+    padding: 9px 33px;
+    color: white;
+    background-color: var(--primary);
+}
+
+.navbar-button:hover{
+    color: white;
+    background-color: var(--secoundary);
+    text-decoration: none;
+}
+/* navbar-section end */
+
+ /* courses card-section start  */
+
+.card-courses-containor{
+    min-height: 100vh;
+    background-color: var(--lightGray);
+    padding: 2%;
+}
+
+.card-courses-heading{
+    text-align: center;
+    padding: 5%;
+}
+
+.card-courses-img{
+    width: 51%;
+    height: 90px;
+    margin: 13%;
+}
+
+.card-courses-content{
+    display: flex;
+    width: 91%;
+    padding: 3%;
+    height: 617px;
+    margin-left: 6%;
+    flex-wrap: wrap;
+}
+
+.card-courses-item{
+    width: 14%;
+    margin-left: 9%;
+    text-decoration: none;
+    color: black;
+    height: 189px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.2s;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.card-courses-item:hover{
+    transform: scale(1.2);
+    color: black;
+}
+
+ /* courses card-section end  */
